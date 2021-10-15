@@ -1,0 +1,45 @@
+body {
+    color: #DDDDDD;
+    background-color: #242426;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    font-size: large;
+    background-color: hotpink;
+    border: none;
+    color: #242426;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+
+button.accept {
+    background-color: #53b860;
+}
+
+button.accept:hover {
+    background-color: #a0dea8;
+}
+
+
+.my-content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.my-content div{
+    background-color: #343436;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
