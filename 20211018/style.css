@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    background-color: #13131d;
+    color: beige;
+    margin: 32px;
+}
+
+#console {
+    margin-top: 32px;
+    width: 50%;
+    height: 400px;
+    background-color: #222222;
+    border: 4px dashed beige;
+    font-family: monospace;
+    padding: 8px;
+}
