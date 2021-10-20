@@ -2,6 +2,7 @@ body {
     background-color: #2c2736;
     color: beige;
     font-family: sans-serif;
+    zoom: 130%;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
     font-family: monospace;
     width: 70%;
     height: 24em;
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 10px;
     margin: auto;
 }
