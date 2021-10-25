@@ -36,3 +36,10 @@ console.log(2 !== '2');
 
 console.log(2 >= 2);
 console.log(3 <= 3);
+
+console.log('========CONDITIONAL STATEMENTS=========');
+
+
+if(+prompt('What is the answer to life, the universe and everything?') === 42) {
+    console.log('You are the best!');
+}
