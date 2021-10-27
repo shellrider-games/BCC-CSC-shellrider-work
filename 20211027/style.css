@@ -2,6 +2,8 @@ body {
     background-color: #0C2D48;
     color: #B1D4E0;
     font-family: sans-serif;
+    overflow: hidden;
+    
 }
 
 img {
@@ -11,5 +13,14 @@ img {
 }
 
 #content {
-    padding-left: 24px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#weekday {
+    color: orange;
+    text-shadow: 4px 4px 8px #0a161f;
+    font-weight: bolder;
 }
