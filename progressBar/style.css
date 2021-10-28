@@ -1,0 +1,47 @@
+.content {
+    margin: auto;
+    width: 60vw;
+}
+
+.progressBorder {
+    border-radius: 16px;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.progressBar {
+    border-radius: 16px;
+    height: 24px;
+    background-color: lightgreen;
+}
+
+button {
+    border-style: none;
+    background-color: rgb(35, 137, 196);
+    color: white;
+    border-radius: 16px;
+    font-size: larger;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+button:hover {
+    background-color: rgb(86, 172, 221);;
+}
+
+#resetButton {
+    background-color: red;
+}
+
+#resetButton:hover {
+    background-color: tomato;
+}
+
+#pauseButton {
+    background-color: orange;
+}
+
+#pauseButton:hover {
+    background-color: rgb(252, 190, 75);
+}
