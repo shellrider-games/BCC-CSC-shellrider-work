@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Beckett';
+    src: url('./res/fonts/Beckett.woff2') format('woff2'),
+        url('./res/fonts/Beckett.woff') format('woff'),
+        url('./res/fonts/Beckett.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px #CC0000;
+    color: white;
+    font-family: 'Beckett';
+    font-size: 48pt;
+}
+
+#gameContent {
+    width: 70%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: larger;
+}
+
+#choiceButtons {
+    text-align: center;
+}
+
+#choiceButtons button{
+    font-size: x-large;
+    color: whitesmoke;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: black;
+    border: solid #CC0000;
+    border-left: 1px solid #CC0000;
+    border-top: 1px solid #CC0000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    margin-bottom: 8px;
+}
+
+#choiceButtons button:hover{
+    top: -4px;
+    color: white;
+    border: solid red;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    background-color: #111111;
+}
+
+#backgroundImage{
+    margin-top: 10px;
+    text-align: center;
+    height: 100%;
+    max-height: 100%;
+}
+
+#backgroundImage img {
+    border: none;
+    height: 100%;
+    max-height: 512px;
+    width: auto;
+}
