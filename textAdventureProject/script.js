@@ -59,6 +59,11 @@ function lastNode() {
   }
 }
 
+
+//==================================
+//            Game data
+//==================================
+
 const node10 = new StoryNode(
   `You start to run, clutching your pouch tight in your hands you dart through the village to get to your horse, you see more and more skeletons appearing out of the shadows out to kill you but you somehow manage to evade ally of them. Jumping onto your horse you gallop away as fast as the beast can carry, not once looking back. After half an hour you slow down and look into your pouch. The saving petals are there. Your father might yet live.`,
   [],
@@ -124,6 +129,8 @@ const node0 = new StoryNode(
     new Choice("Take a good look around, better safe than sorry!", node2),
   ]
 );
+
+//Startup section
 
 buttonDiv.innerHTML = "";
 
