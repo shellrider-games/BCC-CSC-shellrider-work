@@ -25,7 +25,7 @@ class StoryNode {
 }
 
 function appendChoice(choice) {
-  let button = document.createElement("button");
+  const button = document.createElement("button");
   button.innerHTML = choice.text;
   button.onclick = function () {
     if (choice.node) {
