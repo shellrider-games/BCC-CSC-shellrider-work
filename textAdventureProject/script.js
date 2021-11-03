@@ -70,12 +70,12 @@ const node10 = new StoryNode(
   "./res/images/win.png"
 );
 const node9 = new StoryNode(
-  `You turn around and you stare at a headless monstrosity axe above you. The last thing you hear is a swush as you join the ranks of undead soldiers.`,
+  `You turn around and you stare at a headless monstrosity holding an axe above you. The last thing you hear is a swush as you join the ranks of undead soldiers.`,
   [],
   "./res/images/axe_kill.png"
 );
 const node8 = new StoryNode(
-  `You keep collecting the petals... shortly after you hear the zing of metal turn around and you stare at a headless monstrosity axe above you. The last thing you hear is a swush as you join the ranks of undead soldiers.`,
+  `You keep collecting the petals... shortly after you hear the zing of metal turn around and you stare at a headless monstrosity holding an axe above you. The last thing you hear is a swush as you join the ranks of undead soldiers.`,
   [],
   "./res/images/axe_kill.png"
 );
