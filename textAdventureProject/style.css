@@ -17,7 +17,7 @@ body {
 h1 {
     text-align: center;
     text-shadow: 3px 3px #CC0000;
-    color: white;
+    color: whitesmoke;
     font-family: 'Beckett';
     font-size: 48pt;
 }
@@ -71,4 +71,34 @@ h1 {
     height: 100%;
     max-height: 512px;
     width: auto;
+}
+
+#startButtonContainer{
+    margin-top: 4px;
+    text-align: center;
+}
+
+#startButton {
+    color: #CC0000;
+    text-shadow: 3px 3px #333333;
+    font-size: 72pt;
+    font-family: 'Beckett';
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#startButton:hover {
+    top: -4px;
+    color: red;
+    font-size: 72pt;
+    font-family: 'Beckett';
+}
+
+#musicAttrib {
+    text-align: center;
+    margin-top: -32px;
+    font-size: x-small;
 }
