@@ -62,11 +62,10 @@ h1 {
       rotate(calc(-1*var(--az)))
       rotate(90deg);
 
-    transition: all .2s ease-in-out;
+    transition: opacity .5s ease-in-out, transform .2s ease-in-out;
   }
 
   .options li:hover {
-    
     transform:
     rotate(var(--az))
     rotate(-90deg)
@@ -124,6 +123,7 @@ h1 {
     position: relative;
     text-align: center;
     border: solid 1px whitesmoke;
+    transition: opacity ease-out 0.25s;
   }
 
   #hideRules {
