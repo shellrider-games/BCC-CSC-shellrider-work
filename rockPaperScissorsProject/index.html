@@ -7,14 +7,34 @@
   </head>
   <body>
     <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
-    <div class="options" style="--m: 5; --tan: 0.72">
-      <ul>
-          <li id="scissors" style="--i: 1"></li>
-          <li id="spock" style="--i: 2"></li>
-          <li id="lizard" style="--i: 3"></li>
-          <li id="rock" style="--i: 4"></li>
-          <li id="paper" style="--i: 5"></li>
-      </ul>
+    <div class="box">
+      <div id="Player" class="side-box">
+        <p>Player score</p>
+        <p id="playerScore">-</p>
+        <p>last pick </p>
+        <p><span id="playerPick"></span></p>
+      </div>
+      <div class="options" style="--m: 5; --tan: 0.72">
+        <ul>
+            <li id="text-output"></li>
+            <li id="scissors" style="--i: 1"><img src="./res/images/scissors.png" alt="scissors"></li>
+            <li id="spock" style="--i: 2"><img src="./res/images/spock.png" alt="Spock"></li>
+            <li id="lizard" style="--i: 3"><img src="./res/images/lizard.png" alt="lizard"></li>
+            <li id="rock" style="--i: 4"><img src="./res/images/rock.png" alt="rock"></li>
+            <li id="paper" style="--i: 5"><img src="./res/images/paper.png" alt="paper"></li>
+        </ul>
+      </div>
+      <div id="CPU" class="side-box">
+        <p>CPU score</p>
+        <p id="cpuScore">-</p>
+        <p>last pick </p>
+        <p><span id="cpuPick"></span></p>
+      </div>
+    </div>
+    <div id="rules">
+      <p>Select either rock, paper, scissors, lizard or Spock and try to beat the CPU!<p>
+      <p>Remeber! Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock and rock crushes scissors!</p>
+      <button id="hideRules">✖</button>
     </div>
     <script src="script.js"></script>
   </body>

@@ -8,13 +8,36 @@ h1 {
   text-align: center;
 }
 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.side-box {
+  font-size: x-large;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#Player {
+  align-self: flex-start;
+}
+
+#CPU {
+  align-self: flex-start;
+}
+
 .options {
     --d: 12em;
     --rel: 1;
     --r: calc(.5*(1 + var(--rel))*var(--d)/var(--tan));
     --s: calc(2*var(--r) + var(--d));
     width: var(--s); height: var(--s);
-    display:;
+    display:flex;
+    align-self: center;
     justify-content: center;
   }
 
@@ -22,6 +45,10 @@ h1 {
     list-style-type: none;
   }
   .options li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     border-radius: 100%;
     top: 50%; left: 50%;
@@ -33,9 +60,33 @@ h1 {
       rotate(-90deg)
       translate(var(--r))
       rotate(calc(-1*var(--az)))
-      rotate(90deg)
+      rotate(90deg);
+
+    transition: all .2s ease-in-out;
   }
 
+  .options li:hover {
+    
+    transform:
+    rotate(var(--az))
+    rotate(-90deg)
+    translate(var(--r))
+    translate(-20%)
+    rotate(calc(-1*var(--az)))
+    rotate(90deg)
+    scale(1.1);
+
+  }
+
+  .options li img{
+    max-width: 80%;
+    align-items: center;
+  }
+
+  #text-output{
+    color: whitesmoke;
+    font-size: xx-large;
+  }
   
   #scissors {
     background-color: #8e24aa;
@@ -67,4 +118,23 @@ h1 {
 
   #paper:hover{
     background-color: #ffff6b;
+  }
+
+  #rules {
+    position: relative;
+    text-align: center;
+    border: solid 1px whitesmoke;
+  }
+
+  #hideRules {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e53935;
+    border: none;
+    color: whitesmoke;
+  }
+
+  #hideRules:hover {
+    background-color: #ff6f60;
   }
