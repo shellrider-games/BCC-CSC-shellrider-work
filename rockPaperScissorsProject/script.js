@@ -25,7 +25,7 @@ const optionMap = {
   lizard: 4,
 };
 
-optionToString = ["rock", "paper", "scissors", "Spock", "lizard"];
+const optionToString = ["rock", "paper", "scissors", "Spock", "lizard"];
 
 let cpuScore = 0;
 let playerScore = 0;
